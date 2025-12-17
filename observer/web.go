@@ -12,7 +12,7 @@ import (
 	"ergo.services/meta/websocket"
 )
 
-//go:embed web/*
+//go:embed web
 var assets embed.FS
 
 func factory_web() gen.ProcessBehavior {
